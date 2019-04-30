@@ -9,4 +9,5 @@ acceleration graphically as a function of time using initial values input by
 the user. A graph of each will be produced using the mathematical relationships
 between the three parameters.
 
+4. Users will need internet to run the Shiny App. If Users wish to expand upon the project, they would need to download R Markdown.
 
