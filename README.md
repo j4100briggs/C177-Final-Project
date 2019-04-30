@@ -1,6 +1,6 @@
 # C177-Final-Project
 
-1. 
+1. PRINGLE- Program Rendering Interactibe Numbers Grapically and Linearly as Expected
 
 2. Christopher Yeh, Taylor-Rain Coleman, Christina De Cesaris
 
