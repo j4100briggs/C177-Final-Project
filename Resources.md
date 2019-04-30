@@ -1,3 +1,4 @@
 
 ##Resources for Final Project
-[How to: Shiny Apps Link](https://shiny.rstudio.com/)
+[Shiny Apps Tutorial Link](https://shiny.rstudio.com/tutorial/)
+
