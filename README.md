@@ -13,3 +13,4 @@ between the three parameters.
 
 5. Input boxes provide the user options to adjust output on graphs displayed on the side.  
 
+![Diagram] (https://github.com/cdecesaris/C177-Final-Project/blob/master/IMG_4274.jpeg)
