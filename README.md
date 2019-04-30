@@ -13,4 +13,6 @@ between the three parameters.
 
 5. Input boxes provide the user options to adjust output on graphs displayed on the side.  
 
+6. Our biggest concern in pursing this project is learning how to code Shiny apps, however, we believe that we are capable of learning enoguh to achieve this project. 
+
 ![Diagram](/IMG_4274.jpeg)
