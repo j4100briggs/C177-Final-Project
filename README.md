@@ -11,4 +11,4 @@ between the three parameters.
 
 4. Users will need internet to run the Shiny App. If Users wish to expand upon the project, they would need to download R Markdown.
 
-5. Dropdown boxes provide the user input options to adjust output on graphs displayed on the side.  
+5. Input boxes provide the user options to adjust output on graphs displayed on the side.  
