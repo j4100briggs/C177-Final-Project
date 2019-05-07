@@ -3,22 +3,22 @@ package
   commands
   
   
-plotly
+plotly #creates the plot from your equation
   plot_ly (x=0)
   ggplot
-MathJax
+MathJax #displays the equation in a nice format
   helpText ('$$x=at^2+vt+x$$')
   helpText ('$$v=at$$')
   helpText ('$$a=a$$')
-library
+library #loads the programs you need
   library(shiny)
   library(plotly)
   packageVersion('plotly') 
  other??
   shinyServer(function(input, output) {
-  output$trendPlot <- renderPlotly({
+  output$lineplot <- renderPlotly({
  
- building user interface:
+#building user interface:
  ui
     headerPanel("Title"),
     mainPanel(
