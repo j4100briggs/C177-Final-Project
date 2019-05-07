@@ -15,8 +15,8 @@ library
   library(plotly)
   packageVersion('plotly')
   
-  building user interface:
-  ui
+ building user interface:
+ ui
     headerPanel("Title"),
     mainPanel(
       plotlyOutput('plottype', height = "900px")
