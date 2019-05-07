@@ -5,6 +5,7 @@ package
   
 plotly
   plot_ly (x=0)
+  ggplot
 MathJax
   helpText ('$$x=at^2+vt+x$$')
   helpText ('$$v=at$$')
