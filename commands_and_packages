@@ -4,7 +4,9 @@ package
   
   
 plotly
-  
+  plot_ly (x=0)
 MathJax
-  helpText ('$$at^2+v+x$$')
+  helpText ('$$x=at^2+vt+x$$')
+  helpText ('$$v=at$$')
+  helpText ('$$a=a$$')
 library
