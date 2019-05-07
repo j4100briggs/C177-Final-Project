@@ -13,8 +13,11 @@ MathJax
 library
   library(shiny)
   library(plotly)
-  packageVersion('plotly')
-  
+  packageVersion('plotly') 
+ other??
+  shinyServer(function(input, output) {
+  output$trendPlot <- renderPlotly({
+ 
  building user interface:
  ui
     headerPanel("Title"),
