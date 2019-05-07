@@ -10,3 +10,13 @@ MathJax
   helpText ('$$v=at$$')
   helpText ('$$a=a$$')
 library
+  library(shiny)
+  library(plotly)
+  packageVersion('plotly')
+  
+  building user interface:
+  ui
+    headerPanel("Title"),
+    mainPanel(
+      plotlyOutput('plottype', height = "900px")
+    )
