@@ -1,1 +1,16 @@
 #
+# ggplot2 function to custumize graph and produce cleaner outout
+# allow for piecewise functions
+# in Ui include input drop down for piece wise (with a limit on number of pieces)
+# In Server, create conditional statement
+# Adjust themes for aesthetics 
+#        output$PPlot <- reactivePlot(function() 
+#             if Piecewiseoption == true
+#                  ggplot two plots (on same graph) over indicated time intervals
+#                  use layer function of ggplot to create piece wise graphs?
+#             else
+#                  plot as normal
+# include in graph hover function
+# this function is built into ggplot customization
+# use xtick, ytick to control and modify tickmarks
+# this is to be done more so via trial and error experimentation 
