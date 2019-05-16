@@ -14,3 +14,7 @@
 # this function is built into ggplot customization
 # use xtick, ytick to control and modify tickmarks
 # this is to be done more so via trial and error experimentation 
+# Guarav's suggestions: add explanations for each equations/between graphs. Overlapping graphs; i.e specific time points w/ acceleration, velocity
+# look into shinyapp widgets 
+# gganimat, animate changes in graph over time at each point. 
+# show physics students to get additional input. 
