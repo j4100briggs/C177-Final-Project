@@ -1,0 +1,43 @@
+library(shiny)
+library(plotly)
+library(knitr)
+
+
+xx<-data.frame(time1=seq(0,50))
+
+server <- shinyServer(function(input, output) {
+
+    output$testPlot <- renderPlotly({
+        number_ticks <- function(n) {function(limits) pretty(limits, n)}
+        x1<-xx[,1]
+        y1<-input$p1 + input$p2*(x1)
+         df = data.frame(x1 ,y1)
+        ggplot(data=df, aes(x=x1, y=y1)) +
+            geom_line(color =  "darkgreen") +
+            scale_x_continuous(breaks = number_ticks(10)) +
+            scale_y_continuous(breaks = number_ticks(10))
+        # plot(x, y, type = "l", pch = 1, col = 'red', ylim = c(0,75000))
+    })
+
+    
+})
+
+ui <- shinyUI(fluidPage(
+    titlePanel("title"),
+    sidebarLayout(
+        sidebarPanel(
+            
+            numericInput("p1",
+                        "Change P1", value = 0),
+            numericInput("p2", 
+                        "Change p2", value = 0)
+            #checkboxInput("piece", "Piece-Wise" )
+        ),
+        mainPanel(
+            plotlyOutput("testPlot")
+            
+        )
+    )
+))
+
+shiny::shinyApp(ui=ui,server=server)
