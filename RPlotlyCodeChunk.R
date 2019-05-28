@@ -1,10 +1,11 @@
 library(shiny)
 library(plotly)
 library(knitr)
+library(shinythemes)
 
 
-xx<-data.frame(time1=seq(0,50))
-vv<-data.frame(time1=seq(0,50))
+xx<-data.frame(time1=seq(0,20))
+vv<-data.frame(time1=seq(0,20))
 
 server <- shinyServer(function(input, output) {
     
@@ -14,9 +15,10 @@ server <- shinyServer(function(input, output) {
         y1<-input$p3
         df = data.frame(x1 ,y1)
         ggplot(data=df, aes(x=x1, y=y1)) +
-            geom_line(color =  "darkgreen") +
+            geom_line(color =  "lightblue") +
             scale_x_continuous(breaks = number_ticks(10)) +
-            scale_y_continuous(breaks = number_ticks(10))
+            scale_y_continuous(breaks = number_ticks(10)) +
+            theme_light() + xlab("time") + ylab("m/s^2")
         # plot(x, y, type = "l", pch = 1, col = 'red', ylim = c(0,75000))
     })
     output$testPlot <- renderPlotly({
@@ -25,9 +27,10 @@ server <- shinyServer(function(input, output) {
         y1<-input$p1 + input$p2*(x1)
         df = data.frame(x1 ,y1)
         ggplot(data=df, aes(x=x1, y=y1)) +
-            geom_line(color =  "darkgreen") +
+            geom_line(color =  "lightblue") +
             scale_x_continuous(breaks = number_ticks(10)) +
-            scale_y_continuous(breaks = number_ticks(10))
+            scale_y_continuous(breaks = number_ticks(10)) +
+            theme_light() + xlab("time") + ylab("m/s")
         # plot(x, y, type = "l", pch = 1, col = 'red', ylim = c(0,75000))
     })
     output$testPlot2 <- renderPlotly({
@@ -36,17 +39,18 @@ server <- shinyServer(function(input, output) {
         y1<-input$p1*(x1) + input$p2*(x1)^2 + input$p3
         df = data.frame(x1 ,y1)
         ggplot(data=df, aes(x=x1, y=y1)) +
-            geom_line(color =  "darkgreen") +
+            geom_line(color =  "lightblue") +
             scale_x_continuous(breaks = number_ticks(10)) +
-            scale_y_continuous(breaks = number_ticks(10))
+            scale_y_continuous(breaks = number_ticks(10)) +
+            theme_light() + xlab("time") + ylab("m") 
         # plot(x, y, type = "l", pch = 1, col = 'red', ylim = c(0,75000))
     })
-  
+    
     
     
 })
 
-ui <- shinyUI(fluidPage(
+ui <- shinyUI(fluidPage(theme = shinytheme("cerulean"),
     titlePanel("Constant Aceleration Kinematics"),
     sidebarLayout(
         sidebarPanel(
