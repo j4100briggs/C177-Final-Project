@@ -7,6 +7,8 @@
 This section indicates the purpose of the program and provides background and a justification for why the 
 program was created.
 
+This program will be to relate position, velocity, and acceleration graphically as a function of time using initial values input by the user. A graph of each will be produced using the mathematical relationships between the three parameters.
+
 ### Program Workflow: 
 This section provides an operation overview of what the program does. A flowchart or some other diagram 
 might be helpful, but is not required.
