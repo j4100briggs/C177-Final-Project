@@ -13,7 +13,7 @@ This program will be to relate position, velocity, and acceleration graphically 
 This section provides an operation overview of what the program does. A flowchart or some other diagram 
 might be helpful, but is not required.
 
-This program creates a dataset of 50 ordered pairs using each of the three constant acceleration kinematics equations: a(t)=a, v(t)=at+v, and x(t)=at^2+vt+x. Where a is acceleration and a(t) is the acceleration function, v is initial velocity and v(t) is the velocity function, x is initial position and x(t) is the position function, and t is time. It then uses 
+This program creates a dataset of 50 ordered pairs using each of the three constant acceleration kinematics equations: a(t)=a, v(t)=at+v, and x(t)=at^2+vt+x. Where a is acceleration and a(t) is the acceleration function, v is initial velocity and v(t) is the velocity function, x is initial position and x(t) is the position function, and t is time. It then uses plotly to render the plots of these functions based on the variables inputted by the user for a, v, and x. 
 
 ### Dependencies: 
 To run a program users may need to have dependencies installed. Indicate which dependencies are required for 
@@ -21,6 +21,12 @@ your program.
 
 ### Instructions: 
 You need to indicate how your program is run.
+1. Run the program by
+2. 
+3. Click each of the input boxes located on the lefthand side of the screen, entering values (either by typing of clicking the 
+arows) for the scenario you'd like to model.
+4. Once your plot is rendered, you can hover your cursor over the lines in order to view the value of the ordered pair in that location.
+5. In the upper right corner of each of the plots, there are several functions, from left to right they: save an image of the plot, allow you to zoom by clicking and highlighting an area, allow you to pan by dragging your cursor, zoom in, zoom out, autoscale the plot, return to the the original scale, toggle spike lines (which creates dashed lines from the point to the axes, show closest data on hover, and compare data on hover
 
 ### Expected Output: 
 Describe the files and or directories will be produced by your program.
