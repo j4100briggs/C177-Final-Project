@@ -1,5 +1,5 @@
 # PRINGLE- Program Rendering Interactive Numbers Grapically and Linearly as Expected
-## Authors: Christopher Yeh, Taylor-Rain Coleman, Christina De Cesaris
+### Authors: Christopher Yeh, Taylor-Rain Coleman, Christina De Cesaris
 
 Introduction: This section indicates the purpose of the program and provides background and a justification for why the 
 program was created.
