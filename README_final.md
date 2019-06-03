@@ -31,7 +31,7 @@ arows) for the scenario you'd like to model.
 ### Expected Output: 
 Describe the files and or directories will be produced by your program.
 
-- When running correctly, the program will produce three graphs with all of the capabilities described above, being able to hover and see values, and utillize the functions in the upper righthand corner. 
+When running correctly, the program will produce create three dataframes based on the given equations and plot them, producing three graphs with all of the capabilities described above, being able to hover and see values, and utillize the functions in the upper righthand corner. 
 - When the acceleration, a, entered by the user is non-zero, the a(t) plot will give a horizontal line, the v(t) plot will be linear, and the x(t) plot will be quadratic. 
 - When a is zero and v is non-zero, the a(t) plot will give a horizontal line at zero, the v(t) plot will be horizontal and non-zero, and the x(t) plot will be linear. 
 - When a and v are zero but x is not, the a(t) and v(t) plots will give a horizontal line at zero, and the x(t) plot will be horizontal and non-zero. 
