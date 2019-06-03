@@ -13,6 +13,8 @@ This program will be to relate position, velocity, and acceleration graphically 
 This section provides an operation overview of what the program does. A flowchart or some other diagram 
 might be helpful, but is not required.
 
+This program creates a dataset of 50 ordered pairs using each of the three constant acceleration kinematics equations: a(t)=a, v(t)=at+v, and x(t)=at^2+vt+x. Where a is acceleration and a(t) is the acceleration function, v is initial velocity and v(t) is the velocity function, x is initial position and x(t) is the position function, and t is time. It then uses 
+
 ### Dependencies: 
 To run a program users may need to have dependencies installed. Indicate which dependencies are required for 
 your program.
