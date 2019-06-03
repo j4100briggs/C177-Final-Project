@@ -4,8 +4,8 @@ library(knitr)
 library(shinythemes)
 
 
-xx<-data.frame(time1=seq(0,20))
-vv<-data.frame(time1=seq(0,20))
+xx<-data.frame(time1=seq(0,10))
+vv<-data.frame(time1=seq(0,10))
 
 server <- shinyServer(function(input, output) {
     
