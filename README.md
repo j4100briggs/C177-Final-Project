@@ -42,8 +42,8 @@ When running correctly, the program will produce create three dataframes based o
 Cite pertinent studies or programs that you used to develop your program(s). For example, cite the source of 
 equations, the programs run by your program, the study used to motivate your program etc.
 
-ShinyApp-https://shiny.rstudio.com/ 
-ShinyAppDeployment-https://www.shinyapps.io/
-Plotly(ggplot2)-https://plot.ly/ggplot2/
-ShinyThemes-https://rstudio.github.io/shinythemes/
-knitr-https://yihui.name/knitr/
+ShinyApp-https://shiny.rstudio.com/.
+ShinyAppDeployment-https://www.shinyapps.io/ .
+Plotly(ggplot2)-https://plot.ly/ggplot2/ .
+ShinyThemes-https://rstudio.github.io/shinythemes/ .
+knitr-https://yihui.name/knitr/ .
