@@ -19,7 +19,7 @@ This program creates a dataset of 50 ordered pairs using each of the three const
 To run a program users may need to have dependencies installed. Indicate which dependencies are required for 
 your program.
 
-In order to run this program, no dependancies must be installed. Users can simply use the application through a web browser via this link: ++++++++. However, if the user prefers to copy the code for some other purpose, such as modifying the code, it can be editted using RStudio. Within RStudio, several packages must be installed. These packages are: shiny, plotly, knitr, shinythemes, and ggplot2.
+In order to run this program, no dependancies must be installed. Users can simply use the application through a web browser via this link: ++++++++. However, if the user prefers to copy or locally run the code for some other purpose, such as modifying the code, it can be editted using RStudio. Within RStudio, several packages must be installed. These packages are: shiny, plotly, knitr, shinythemes, and ggplot2.
 
 ### Instructions: 
 You need to indicate how your program is run.
