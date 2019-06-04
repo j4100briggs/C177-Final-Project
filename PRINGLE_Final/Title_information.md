@@ -3,7 +3,7 @@
 ## Contact Information
 ### Christopher Yeh
 Email:
-### Taylor-Rain Coleman 
+Taylor-Rain Coleman 
 Email: school@taylor-rain.com
 ### Christina De Cesaris
 Email:
