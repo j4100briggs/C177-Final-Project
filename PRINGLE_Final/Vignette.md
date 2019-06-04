@@ -6,7 +6,7 @@ A small test dataset
 The exact command needed to run this dataset with your program
 The expected output of running your program using the small dataset.
 
-This is a series of sample inputs and the outputs they will create when the program is running properly. The variables should substitute themselves into their respective places in their equations and produce plots that reflect standard linear, parabolic, or constant mathematical plots.
+This is a series of sample inputs and the outputs they will create when the program is running properly. The variables should substitute themselves into their respective places in their equations and produce plots that reflect standard linear, parabolic, or constant mathematical plots. In order to produce these outputs, simply type the example inputs into the correct boxes on the lefthand side of the screen. 
 
 ## Example 1
 - a=0
