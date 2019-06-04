@@ -6,22 +6,22 @@ library(ggplot2)
 
 
 
-
-xx<-data.frame(time1=seq(0,20))
-vv<-data.frame(time1=seq(0,20))
-aa<-data.frame(time1=seq(0,20))
+xx<-data.frame(time1=seq(0, 50))
+vv<-data.frame(time1=seq(0,50))
+aa<-data.frame(time1=seq(0,50))
 #three seperate data frames to load for three main graphs
 
 server <- shinyServer(function(input, output) {
     
     output$aPlot <- renderPlotly({
         number_ticks <- function(n) {function(limits) pretty(limits, n)}
+        
         x1<-aa[,1]
         y1<-input$a
         df = data.frame(x1 ,y1)
         ggplot(data=df, aes(x=x1, y=y1)) +
             geom_line(color =  "lightblue") +
-            scale_x_continuous(breaks = number_ticks(10)) +
+            scale_x_continuous(breaks = number_ticks(25)) +
             scale_y_continuous(breaks = number_ticks(10)) +
           theme_light() + xlab("seconds") + labs(y= 'm/s<sup>2') + ggtitle("Acceleration: a(t)=a")
 
@@ -34,7 +34,7 @@ server <- shinyServer(function(input, output) {
         df = data.frame(x1 ,y1)
         ggplot(data=df, aes(x=x1, y=y1)) +
             geom_line(color =  "lightblue") +
-            scale_x_continuous(breaks = number_ticks(10)) +
+            scale_x_continuous(breaks = number_ticks(25)) +
             scale_y_continuous(breaks = number_ticks(10)) +
             theme_light() + xlab("seconds") + ylab("m/s") + ggtitle("Velocity: v(t)= x + vt") 
             
@@ -47,7 +47,7 @@ server <- shinyServer(function(input, output) {
         df = data.frame(x1 ,y1)
         ggplot(data=df, aes(x=x1, y=y1)) +
             geom_line(color =  "lightblue") +
-            scale_x_continuous(breaks = number_ticks(10)) +
+            scale_x_continuous(breaks = number_ticks(25)) +
             scale_y_continuous(breaks = number_ticks(10)) +
             theme_light() + xlab("seconds") + ylab("m") +ggtitle("Position: x(t)= x + vt + 0.5at<sup>2")
         # plot(x, y, type = "l", pch = 1, col = 'red', ylim = c(0,75000))
